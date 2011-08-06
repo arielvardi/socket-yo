@@ -9,10 +9,10 @@
 <title>Socket, yo!</title>
 <link rel="stylesheet" type="text/css" href="css/style.css" /> 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
-<script src="http://192.168.0.105:8080/socket.io/socket.io.js"></script>
+<script src="http://localhost:8080/socket.io/socket.io.js"></script>
 <script>
 
-	var socket = io.connect('http://192.168.0.105:8080');
+	var socket = io.connect('http://localhost:8080');
 	var chatEnabled = false;
 
 	socket.on('chat', function (data) {
