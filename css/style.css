@@ -1,0 +1,78 @@
+@CHARSET "UTF-8";
+
+body {
+	font-family: Verdana, Arial, sans-serif;	
+	font-size: 16px;
+	background-color: #E7E7DE;
+	text-align: center;
+	text-shadow: 0 1px 0 black;
+	color: white;
+	background: url('../img/pattern.png');
+}
+
+
+
+input[type=text], input[type=password] {
+	border: 1px solid gray;
+	background: #FFFFFF url("../img/misc/form_top_shadow.png");
+	background-repeat: repeat-x;
+	padding: 2px;
+}
+
+input[type=text]#message {
+	width: 500px;
+	font-size: 26px;
+	padding: 0.4em;
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+#hello, #name-chooser {
+	font-size: 26px;
+	margin-bottom: 1em;
+}
+
+#nickname { 
+	font-size: 26px;
+}
+
+#chatroom {
+	text-align: center;
+	min-height: 200px;
+	max-height: 500px;
+	overflow: auto;
+	background-color: black;
+	color: white;
+	text-align: left;
+	padding: 1em;
+
+}
+
+#chatroom p {
+	opacity: 1;
+}
+
+#chatroom .alias-them, #chatroom .alias-you, #chatroom .alias-server {
+	font-weight: bold;
+	color: #A5D71C;
+}
+
+#chatroom .alias-them {
+	font-style: italic;
+	color: #00BFFF;
+	
+}
+
+#chatroom .alias-server {
+	text-decoration: underlined;
+	color: #FFFF00;
+	
+}
+
+#statusbar { 
+	padding: 0.3em;
+	padding-left: 1em;
+	padding-right: 1em;
+	text-align: left;
+	background-color: gray;	
+}
