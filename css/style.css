@@ -10,7 +10,9 @@ body {
 	background: url('../img/pattern.png');
 }
 
-
+a:visited, a:hover {
+		color: white;
+}
 
 input[type=text], input[type=password] {
 	border: 1px solid gray;
@@ -75,4 +77,9 @@ input[type=text]#message {
 	padding-right: 1em;
 	text-align: left;
 	background-color: gray;	
+}
+
+#footer {
+	font-size: 12px;
+	margin-top: 2em;
 }

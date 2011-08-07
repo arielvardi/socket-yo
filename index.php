@@ -89,6 +89,10 @@
 </div>
 </div>
 
+<div id='footer'>
+By <a href='http://www.arielvardi.com'>Ariel Vardi</a> - built using <a href='http://nodejs.org/'>node.js</a>, <a href='http://socket.io/'>socket.io</a>, and <a href='http://jquery.com/'>jquery</a> - Git repo: <a href='https://github.com/arielvardi/socket-yo'>https://github.com/arielvardi/socket-yo</a>
+</div>
+
 </body>
 
 </html>
